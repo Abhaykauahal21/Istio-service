@@ -1,0 +1,23 @@
+{
+    "name": "mini-istio-monorepo",
+    "version": "1.0.0",
+    "description": "Root package to run all Mini-Istio services",
+    "scripts": {
+        "install:all": "cd control-plane && npm install && cd ../watcher && npm install && cd ../service-a && npm install && cd ../service-b && npm install && cd ../sidecar && npm install && cd ../frontend && npm install",
+        "start": "concurrently \"npm:control-plane\" \"npm:watcher\" \"npm:service-a\" \"npm:sidecar-a\" \"npm:service-b\" \"npm:sidecar-b\" \"npm:frontend\"",
+        "control-plane": "cd control-plane && set \"PORT=5000\" && npm start",
+        "watcher": "cd watcher && set \"MONGO_URI=mongodb+srv://control:2003@cluster0.vvuzah9.mongodb.net/minimesh?appName=Cluster0\" && npm start",
+        "service-a": "cd service-a && set \"PORT=3001\" && set \"SIDECAR_URL=http://localhost:4001\" && npm start",
+        "sidecar-a": "cd sidecar && set \"PORT=4001\" && set \"APP_PORT=3001\" && set \"SERVICE_NAME=service-a\" && set \"CONTROL_PLANE_URL=http://localhost:5000\" && npm start",
+        "service-b": "cd service-b && set \"PORT=3002\" && npm start",
+        "sidecar-b": "cd sidecar && set \"PORT=4002\" && set \"APP_PORT=3002\" && set \"SERVICE_NAME=service-b\" && set \"CONTROL_PLANE_URL=http://localhost:5000\" && npm start",
+        "frontend": "cd frontend && npm run dev"
+    },
+    "devDependencies": {
+        "concurrently": "^8.2.1"
+    },
+    "dependencies": {
+        "dotenv": "^17.3.1",
+        "mongoose": "^9.2.1"
+    }
+}
