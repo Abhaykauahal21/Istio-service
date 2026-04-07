@@ -16,6 +16,7 @@ Welcome to the **Mini-Istio Service Mesh Explorer**! This is a production-grade 
 - [🛠️ Tech Stack](#🛠️-tech-stack)
 - [🚀 Getting Started](#🚀-getting-started)
 - [💡 Demonstration: The Circuit Breaker](#💡-demonstration-the-circuit-breaker)
+- [👥 Meet the Team](#👥-meet-the-team)
 - [🎓 Technical Q&A (Viva Notes)](#🎓-technical-qa-viva-notes)
 
 ---
@@ -130,6 +131,18 @@ The core value of this project is demonstrating **Resilience**.
 3.  Click **Push Config** (This uses the Watcher Service to update Sidecars).
 4.  Navigate back to **Topology** and click **Fire Traffic**.
 5.  When `Service B` (which fails 30% of the time) returns an error, the **Sidecar** will instantly detect it, trip the circuit, and the UI will show the connection snap into **OPEN (RED)** state.
+
+---
+
+## 👥 Meet the Team
+
+| Name | Role | GitHub Profile |
+| :--- | :--- | :--- |
+| **Abhay Kaushal** | 👑 Team Leader | [Abhaykauahal21](https://github.com/Abhaykauahal21) |
+| **Abhishek Srivastava** | 🚀 Team Member | [AbhishekSrivastava-14](https://github.com/AbhishekSrivastava-14) |
+| **Adarsh Kumar Dubey** | 🛠️ Team Member | [AdarshKumardubey83](https://github.com/AdarshKumardubey83) |
+| **Aditya Singh** | 🛰️ Team Member | [Adityasingh1343](https://github.com/Adityasingh1343) |
+| **Aditya Chuahan** | 🧪 Team Member | - |
 
 ---
 
