@@ -104,7 +104,7 @@ graph TD
 
 1. **Clone & Install**:
    ```bash
-   git clone https://github.com/Abhaykauahal21/Istio-service.git
+   git clone  https://github.com/Abhaykauahal21/Istio-service.git
    cd Istio-service
    npm run install:all
    ```
