@@ -138,11 +138,11 @@ The core value of this project is demonstrating **Resilience**.
 
 | Name | Role | GitHub Profile |
 | :--- | :--- | :--- |
-| **Abhay Kaushal** | 👑 Team Leader | [Abhaykauahal21](https://github.com/Abhaykauahal21) |
-| **Abhishek Srivastava** | 🚀 Team Member | [AbhishekSrivastava-14](https://github.com/AbhishekSrivastava-14) |
-| **Adarsh Kumar Dubey** | 🛠️ Team Member | [AdarshKumardubey83](https://github.com/AdarshKumardubey83) |
-| **Aditya Singh** | 🛰️ Team Member | [Adityasingh1343](https://github.com/Adityasingh1343) |
-| **Aditya Chuahan** | 🧪 Team Member | - |
+| **Abhay Kaushal** |  Team Leader | [Abhaykauahal21](https://github.com/Abhaykauahal21) |
+| **Abhishek Srivastava** |  Team Member | [AbhishekSrivastava-14](https://github.com/AbhishekSrivastava-14) |
+| **Adarsh Kumar Dubey** |  Team Member | [AdarshKumardubey83](https://github.com/AdarshKumardubey83) |
+| **Aditya Singh** |  Team Member | [Adityasingh1343](https://github.com/Adityasingh1343) |
+| **Aditya Chuahan** |  Team Member | [Adityachauhan12345](https://github.com/Adityachauhan12345) |
 
 ---
 
