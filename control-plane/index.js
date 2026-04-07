@@ -37,4 +37,4 @@ app.get('/api/logs', async (req, res) => {
 
 app.listen(PORT, () => {
     console.log(`Control Plane Server running on port ${PORT}`);
-});
+});       
