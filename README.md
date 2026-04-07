@@ -146,7 +146,7 @@ The core value of this project is demonstrating **Resilience**.
 
 ---
 
-## 🎓 Technical Q&A (Viva Notes)
+## 🎓 Technical Q&A (Viva Notes)....
 
 1.  **What is a Service Mesh?**
     It's an infrastructure layer that handles service-to-service communication, security, and observability without modifying the application code.
