@@ -7,7 +7,7 @@
 
 Welcome to the **Mini-Istio Service Mesh Explorer**! This is a production-grade educational project designed to visualize and teach advanced cloud-native architecture concepts. It simulates how a **Service Mesh** (like Istio) manages traffic, discovery, and resilience in a microservices environment.
 
----
+----
 
 ## 📖 Table of Contents
 - [✨ Key Features](#✨-key-features)
