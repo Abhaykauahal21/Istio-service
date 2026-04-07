@@ -145,4 +145,4 @@ The core value of this project is demonstrating **Resilience**.
     **Control Plane**: The Brain (sets policies). **Data Plane**: The Muscle (Sidecars that actually handle traffic).
 
 ---
-*Built with ❤️ by Abhay Kushwaha for Cloud Architecture Education.*
+*Built with ❤️ by Abhay Kaushal along with Team for Cloud Architecture Education.*
