@@ -156,6 +156,8 @@ The core value of this project is demonstrating **Resilience**.
     We use **MongoDB Change Streams**. The `Watcher` service listens for DB updates and immediately sends a Webhook push to all active Sidecars.
 4.  **Control Plane vs. Data Plane?**
     **Control Plane**: The Brain (sets policies). **Data Plane**: The Muscle (Sidecars that actually handle traffic).
+5.  **What is load balancing in Service Mesh?**
+    Distributing traffic evenly across multiple service instances.
 
 ---
 *Built with ❤️ by Abhay Kaushal along with Team for Cloud Architecture Education.*
